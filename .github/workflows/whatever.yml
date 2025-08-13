@@ -25,4 +25,4 @@ jobs:
         run: npm test
 
       - name: Intentional Failure 💥
-        run: this-command-does-not-exist
+        run: exit 1
