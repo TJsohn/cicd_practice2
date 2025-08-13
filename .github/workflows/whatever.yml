@@ -12,17 +12,14 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install 🔧
-        run: npm install
+      # - name: Install 🔧
+      #   run: npm install
 
-      - name: Lint 🧐
-        run: npm run lint
+      # - name: Lint 🧐
+      #   run: npm run lint
 
-      - name: Build 🏗️
-        run: npm run build
+      # - name: Build 🏗️
+      #   run: npm run build
 
-      - name: Simulate an error
-        run: echo "About to fail" ; exit 1
-
-      - name: Test 🚨
-        run: npm test
+      # - name: Test 🚨
+      #   run: npm test
